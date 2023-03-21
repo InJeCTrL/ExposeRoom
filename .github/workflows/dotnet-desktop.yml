@@ -48,8 +48,8 @@ jobs:
       uses: meeDamian/github-release@2.0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        tag: LocalVersion
-        name: LocalVersion
+        tag: Client
+        name: Client
         body: >
           二进制客户端程序，Windows x86/x64、MacOS可用
         files: >
